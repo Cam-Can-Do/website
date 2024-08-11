@@ -3,32 +3,34 @@
 site_name: Cameron Candau
 site_url: https://cameroncandau.com
 theme:
+  logo: images/favicon.png
   favicon: images/favicon.png
   name: material
   features:
-    #- navigation.tabs
-    #- navigation.sections
-    #- toc.integrate
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
     #- navigation.top
     #- search.suggest
     #- search.highlight
     #- content.tabs.link
+    - navigation.instant
     - content.code.annotation
     - content.code.copy
   language: en
   palette:
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: black
+      accent: pink
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
       primary: deep_purple
       accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: deep_purple
-      accent: purple
 
 plugins:
   - social

@@ -1,3 +1,0 @@
-# Currently...
-- Studying for CASP+ Certification
-- Finishing Spring quarter

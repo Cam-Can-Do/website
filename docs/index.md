@@ -1,19 +1,14 @@
-
-
-# `Home`
-
-Welcome to my website! 
-
 ## About Me:
-- Digital minimalist, open-source software enthusiast, aspiring cybersecurity professional (with particular interest in offensive security).
+- I enjoy challenging myself and learning new things.
+- Passionate about security and productivity.
+    - Aspiring cybersecurity professional (offensive security).
+    - Open-source software enthusiast, digital minimalist.
 - Studying Computer Science, Cybersecurity, and Japanese Language.
-- I love challenging myself and learning new things.
 
-## Spring 2024:
-- CSE130: Principles of Computer Systems Design (Systems Programming in C)
-- CSE111: Advanced Programming (C++)
-- CSE183: Web Apps (HTML, CSS, JS (Vue), Py4Web)
-- System Administration and Cybersecurity Internship
+## Fall 2024 Courses:
+- Distributed Systems
+- Computer Networking
+- Intro Software Engineering
 
 ## Other Things I Like:
 - Walking and exercise
