@@ -1,4 +1,6 @@
 **More details are available on my LinkedIn profile.**
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="cameron-candau" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/cameron-candau?trk=profile-badge">Cameron C.</a></div>
+
 
 ## Computer Science
 In December 2024 I will graduate from UC Santa Cruz with a Bachelor's Degree in Computer Science.
