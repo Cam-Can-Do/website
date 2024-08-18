@@ -17,6 +17,7 @@ In December 2024 I will graduate from UC Santa Cruz with a Bachelor's Degree in 
 - CCDC Western Finals 2023
 
 ### General Training/Experience:
-- I've used TryHackMe.com to get started with the fundamentals of cyber.
+- I've spent a lot of time on TryHackMe.com getting familiar with cyber.
+    - https://tryhackme.com/p/Mac125
     - <script src="https://tryhackme.com/badge/85874"></script>
 - [BugCrowd (work in progress) 🐛](https://bugcrowd.com/mac125)
