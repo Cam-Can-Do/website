@@ -1,1 +1,0 @@
-I put walkthroughs and writeups for CTFs here.

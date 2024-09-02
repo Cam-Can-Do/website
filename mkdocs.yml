@@ -8,7 +8,7 @@ theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.sections
+    #- navigation.sections
     - toc.integrate
     #- navigation.top
     #- search.suggest
