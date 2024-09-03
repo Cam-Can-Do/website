@@ -71,19 +71,22 @@ At this point I'll create a few users and workstations to test the domain contro
   - `Users`:
     - `Alice`
     - `Bob`
-  - `Workstations`:
+  - `Workstations` (windows 11 VMs):
     - `ws01`
     - `ws02`
 
 In creating initial, intentionally weak passwords for my users, I was blocked by the default password policy. Although I could have disabled this, I decided to take the opportunity to create an even stronger password policy for the domain.
+
 `Group Policy Management > Forest: corp.company99 > Domains > corp.company99 > Default Domain Policy > Edit`
+
 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
+
 I'll remove the maximum age requirement in favor of longer passwords/passphrases; I feel that this is more secure than mandating regular password changes, which can result in users creating weaker passwords and storing them in less secure ways.
 - Undefine `Maximum password age` 
 - Define `Relax minimum password length` and set to enabled to allow for passwords longer than 14 characters
 - Set `Minimum password length` to 16 characters
 
-## Ideas for next steps:
+## Ideas for next steps (To be continued):
 - Implement a password filter to prevent users from using common passwords (wordlists) or passwords that include their username
 https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh994562(v=ws.10)?redirectedfrom=MSDN
 
