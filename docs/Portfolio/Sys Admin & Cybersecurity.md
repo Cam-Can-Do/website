@@ -2,7 +2,8 @@
 
 ## Certifications ([verify here](https://www.credly.com/users/cameron-candau))
 - ISC2 CC
-- ISC2 Associate
+- ISC2 Associate*
+    - *View my Credly badge for details on my ISC2 certification. Per ISC2’s guidelines, associates are not permitted to specify the exam passed. https://www.credly.com/badges/807a99e0-9e99-4f4f-8ece-874990950a0c/public_url
 - CompTIA Network+
 - CompTIA Security+
 
@@ -12,7 +13,7 @@
 - NSA Codebreaker 2024
 
 ## Other Training/Experience
-- I've spent a lot of time on TryHackMe.com getting familiar with cyber.
+- I've spent a lot of time on TryHackMe.com getting familiar with cyber. 
     - https://tryhackme.com/p/Mac125
     - <script src="https://tryhackme.com/badge/85874"></script>
 - [BugCrowd (work in progress) 🐛](https://bugcrowd.com/mac125)
