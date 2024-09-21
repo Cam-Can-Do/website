@@ -1,0 +1,3 @@
+- Completing the final quarter of my CS degree at UC Santa Cruz (go slugs !🐌!)
+- Working part-time as a cybersecurity intern
+- Working on the NSA Codebreaker challenge (on task 3/7)!
