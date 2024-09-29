@@ -24,3 +24,4 @@ This script also clones and stows my configuration files, which means not only d
     - [Unhook](https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid) Browser Extension
   - [Toggl](https://toggl.com/) for time tracking
   - [Obsidian](https://obsidian.md/) as a personal knowledge base
+  - [Anki](https://apps.ankiweb.net/) for learning and retaining information over time.
