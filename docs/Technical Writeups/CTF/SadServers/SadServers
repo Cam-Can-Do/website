@@ -1,0 +1,37 @@
+https://sadservers.com/
+
+# "Saint John": what is writing to this log file?
+We can check processes currently accessing a file with `lsof <filename>`:
+`lsof /var/log/bad.log`
+The output lists one process with a PID of 587, so we can run `kill 587` to run it and finish the room.
+## One-liner:
+`lsof /var/log/bad.log | cut -f 2 | xargs kill`
+
+# "Saskatoon": counting IPs.
+Requester IPs are in the first column, and columns are delimited by a space (' '), so we can use `cut` to get the IPs as follows:
+`cut -d ' ' -f 1 /home/admin/access.log`
+
+Next, we need to count the frequency of each IP. We can do this by first sorting the IPs, and then use `uniq -c` to aggregate adjacent listings with their frequency counts:
+`cut -d ' ' -f 1 /home/admin/access.log | sort | uniq -c`
+
+Now we have each IP printed with its frequency (in the format `<frequency> <ip>`), and we can use `sort` to sort these lines. Because the frequency is the first part of each line, it will sort by frequency, and we can look to the end of this sorted list for our answer (or pipe to tail -1 to only print the final line).
+This reveals that `75.97.9.59` is found 97 times within our log!
+Lastly, we need to write this address to `/home/admin/highestip.txt`.
+
+For my one-liner I'm going to insert one more command in this pipeline to remove the indentation from each line (which was put there from `uniq`):
+`sed 's/^\s*//'`
+## One-liner
+`cut -d ' ' -f 1 /home/admin/access.log | sort | uniq -c | sort | tail -1 | sed 's/^\s*//'| cut -d ' ' -f 2 > /home/admin/highestip.txt`
+
+## Revisions / Final Thoughts
+Looking at the solution, I realized using `awk` is a better way to select columns in this case, as it uses all whitespace (spaces and tabs) as a delimiter by default, so there's no need for removing the indent using `sed`. 
+Revised one-liner: `awk '{print $1}' /home/admin/access.log | sort | uniq -c | sort | tail -1 | awk '{print $2}' > /home/admin/highestip.txt`
+
+
+# "Santiago": Find the secret combination
+## 1. Number of **lines** with occurrences of the string **Alice** in the `*.txt` files in /home/admin
+`cat /home/admin/*.txt` Gets us all text in `/home/admin/*.txt`.
+`| grep Alice` outputs all lines that contain "Alice".
+`| wc -l` counts the number of lines.
+
+`cat /home/admin/*.txt | grep Alice | wc -l`
